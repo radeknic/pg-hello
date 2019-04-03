@@ -20,3 +20,14 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+function myInfo() {
+
+	info =  'Informacje o mnie :-)' + '\n' +
+			'=====' + '\n' +
+			'Imie i nazwisko: '     + 'Rados³aw Nicieja'     + '\n' + 
+			'wiek           : '  + '23 lat' + '\n' + 
+			'studia         : ' + 'Informatyka Stosowana' + '\n' + 
+			
+	navigator.notification.alert(info);
+	
+}
